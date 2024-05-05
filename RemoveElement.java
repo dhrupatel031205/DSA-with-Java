@@ -8,14 +8,15 @@
  * 2. Remove an odd Integer from an array
  *     Input : arr = {2,3,5,4,7,10.6}
  *     Output : arr = {2,4,10,6}
- */
+*/
 
 class QueOfArray {
     public static void main(String[] args) {
-
         // Input array
         int arr[] = { 2, 3, 5, 6, 10, 4, 7 };
+        // Method calling for remove even elements
         removeEvenElement(arr);
+        // Method calling for remove odd elements
         removeOddElement(arr);
     }
 
