@@ -10,7 +10,7 @@
  *      Output : arr = {1,3,2,4}
 */
 
-class QueOfArray1 {
+class ReverseAnArray {
     public static void main(String[] args) {
         // Input array
         int arr[] = { 2, 3, 5, 6, 10, 4, 7 };
