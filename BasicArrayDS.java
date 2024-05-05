@@ -5,7 +5,6 @@
  *       Declaring and Initializing an array
  *       arr.length for get the length of an array
  *       Printing an array
- * 
  */
 
 class ArrayDemo {
