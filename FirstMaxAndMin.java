@@ -15,11 +15,11 @@ class QueOfArray2 {
         int arr[] = { 2, 3, 5, 6, 10, 4, 7 };
         // call method for find the minimum value of an array
         minValueOfArray(arr);
-        // call method for find the minimum value of an array
+        // call method for find the maximum value of an array
         maxValueOfArray(arr);
     }
 
-    // method for find teh minimum value of an array
+    // method for find the minimum value of an array
     public static void minValueOfArray(int[] arr) {
         int n = arr.length;
         int min = arr[0];
@@ -33,7 +33,7 @@ class QueOfArray2 {
         System.out.println("minimum value = " + min);
     }
 
-    // method for find teh maximum value of an array
+    // method for find the maximum value of an array
     public static void maxValueOfArray(int[] arr) {
         int n = arr.length;
         int max = arr[0];
