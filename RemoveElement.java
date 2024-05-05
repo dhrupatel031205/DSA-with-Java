@@ -10,7 +10,7 @@
  *     Output : arr = {2,4,10,6}
 */
 
-class QueOfArray {
+class RemoveElementEvenOrOdd {
     public static void main(String[] args) {
         // Input array
         int arr[] = { 2, 3, 5, 6, 10, 4, 7 };
@@ -45,6 +45,7 @@ class QueOfArray {
 
     // It will make resultArray which has not any odd element from array arr
     static void removeOddElement(int[] arr) {
+        // variable for total count of even elements
         int evenCount = 0;
         int n = arr.length;
         // for get the count of the odd element
