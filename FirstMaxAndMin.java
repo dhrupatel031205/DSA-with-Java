@@ -46,6 +46,4 @@ class QueOfArray2 {
         // printing maximum value
         System.out.println("maximum value = " + max);
     }
-
-
 }
