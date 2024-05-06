@@ -1,5 +1,5 @@
 /*
- * Date : 05/05/2024
+ * Date : 06/05/2024
  * Name : Dhruv Patel
  * Aim : Find the second maximum value of an array
  *       Innput : arr = {1,2,3,4,5,6,7}
