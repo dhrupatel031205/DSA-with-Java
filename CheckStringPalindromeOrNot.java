@@ -5,7 +5,10 @@
  * Ex : Madam --> true
  *      Mad --> false
 */
+
+// import statements
 import java.util.Scanner;
+
 class CheckPalindromeString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -13,13 +16,13 @@ class CheckPalindromeString {
         String word = sc.nextLine();
         boolean b = isPalindrome(word);
         System.out.println("The given string is palindrome : " + b);
-
     }
 
     // method for check string id palindrome or not
     public static boolean isPalindrome(String word) {
         // convert String word into char array
         char[] c = word.toCharArray();
+        // start pointor at the 0th index and end pointor at the length-1 index
         int start = 0;
         int end = word.length() - 1;
         while (start < end) {
