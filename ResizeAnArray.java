@@ -2,7 +2,6 @@
  * Date : 06/05/2024
  * Name : Dhruv Patel
  * Aim : How to resize an Array
- * 
 */
 
 class ResizeArray {
