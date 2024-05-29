@@ -1,7 +1,6 @@
 /*
 	Singly Linked List
-	Using Nested class 
-	methods :-
+	simple useful methods :-
 		1. addFirst(int x) --> Add the x element at first of the list
 		2. addLast(int x) --> Add the x element at the last of the list
 		3. deleteFirst() --> Delete the first element of the list
@@ -23,7 +22,6 @@ class LinkedList {
 		// 2. next --> it will saves the address of next node
 		int data;
 		Node next;
-
 		Node(int d) {
 			data = d;
 			next = null;
@@ -37,6 +35,7 @@ class LinkedList {
 		Scanner sc = new Scanner(System.in);
 		boolean b = true;
 		LinkedList al = new LinkedList();
+		// different cases for singly linked list
 		while (b) {
 			System.out.println("Enter 1 for add element at first");
 			System.out.println("Enter 2 for add element at last");
@@ -125,6 +124,7 @@ class LinkedList {
 	void deletePerticular(int x) {
 		int flag = 0;
 		Node dummy = Head;
+		// verify x exists in the list or not
 		while (dummy != null) {
 			if (dummy.data == x) {
 				flag = 1;
@@ -134,6 +134,7 @@ class LinkedList {
 		if (flag == 0) {
 			System.out.println("List is  not have this perticulat element");
 		} else {
+		// logic for remove the x 
 			if (Head.data == x) {
 				Node temp = Head;
 				Head = Head.next;
