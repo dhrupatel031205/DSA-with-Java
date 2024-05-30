@@ -4,13 +4,13 @@
     Aim : Singly Linked List
     Basic Methods :-
         1. addFirst(int x) --> Add the x element at first of the list
-		2. addLast(int x) --> Add the x element at the last of the list
-		3. deleteFirst() --> Delete the first element of the list
-		4. deleteLast() --> Delete the last element of the list
-		5. display() --> display the whole List
+	2. addLast(int x) --> Add the x element at the last of the list
+	3. deleteFirst() --> Delete the first element of the list
+	4. deleteLast() --> Delete the last element of the list
+	5. display() --> display the whole List
     Extra Method :-
         6. deletePerticular(int x) --> Delete the x element of the list
-		7. deletePerticularIndex(int index) --> Delete the element of the perticular index of the list
+	7. deletePerticularIndex(int index) --> Delete the element of the perticular index of the list
 */
 import java.util.*;
 
