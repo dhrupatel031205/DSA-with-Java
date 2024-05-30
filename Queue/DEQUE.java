@@ -1,8 +1,8 @@
-
 /*
 	Name : Dhruv Patel
 	Date : 30/05/24
-	DEQUE --> Double Ended Queue :
+	Aim : 
+ 		DEQUE --> Double Ended Queue :
 		There are two types of DEQUE 
 		1. Input Restrictive Queue : 
 			You can remove element from both side (front and rear)
@@ -11,6 +11,7 @@
 			You can add element from both side (front and rear)
 			You can remove element only from front side
 */
+// import statements
 import java.util.*;
 
 class DEQUE {
