@@ -10,6 +10,7 @@
 		6. addAfter(int x, int y) --> Add the x element after the y index of the list
 		7. display() --> display the whole List
 */
+// import statements
 import java.util.*;
 
 class LinkedList {
@@ -149,8 +150,10 @@ class LinkedList {
     }
 }
 
+// class Main for operate the list
 class Main {
     public static void main(String args[]) {
+	// scanner class
         Scanner sc = new Scanner(System.in);
         boolean b = true;
         LinkedList al = new LinkedList();
