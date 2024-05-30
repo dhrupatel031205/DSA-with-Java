@@ -2,7 +2,7 @@
 	Name : Dhruv Patel
 	Date : 30/05/24
 	Aim : 
- 		DEQUE --> Double Ended Queue :
+ 		DEQUE --> Double Ended Queue (Using Array):
 		There are two types of DEQUE 
 		1. Input Restrictive Queue : 
 			You can remove element from both side (front and rear)
