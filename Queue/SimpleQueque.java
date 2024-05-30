@@ -1,4 +1,3 @@
-
 /*
 	Simple Queue using Array
 		Pointors:-
@@ -19,6 +18,7 @@ import java.util.*;
 class Queue {
 	static int size;
 	static int Q[];
+	// pointors declaration
 	static int R = -1;
 	static int F = -1;
 
@@ -73,7 +73,9 @@ class Queue {
 		}
 	}
 
+	// enQueue(int x) method --> for add the x element from the Rear Pointor
 	public static void enQueue(int x) {
+		// checking the OverFlowError
 		if (R == size - 1) {
 			System.out.println("Queue is full");
 		} else {
@@ -86,7 +88,9 @@ class Queue {
 		}
 	}
 
+	// deQueue() --> remove the element from the Front Pointor
 	public static void deQueue() {
+		// checking the UnderFlowError 
 		if (F == -1) {
 			System.out.println("Queue is empty");
 		} else {
@@ -100,6 +104,7 @@ class Queue {
 		}
 	}
 
+	// display() --> printing all the elements in the Queue
 	public static void display() {
 		if (F == -1) {
 			System.out.println("Queue is empty");
