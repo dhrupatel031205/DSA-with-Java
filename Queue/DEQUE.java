@@ -10,6 +10,12 @@
 		2. Output Restrictive Queue : 
 			You can add element from both side (front and rear)
 			You can remove element only from front side
+   		Methods :
+     			insertFront(int x) --> inserting the x element at the Front pointor
+     			insertRear(int x) --> inserting the x element at the Rear pointor
+     			removeFront() --> removing the element at the Front pointor
+     			removeRear() --> reoving the element from the Rear pointor
+     			display() --> printing the elements of the queue
 */
 // import statements
 import java.util.*;
