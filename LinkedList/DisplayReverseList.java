@@ -5,12 +5,12 @@
     Aim : Singly Linked List
     Basic Methods :-
         1. addFirst(int x) --> Add the x element at first of the list
-		2. addLast(int x) --> Add the x element at the last of the list
-		3. deleteFirst() --> Delete the first element of the list
-		4. deleteLast() --> Delete the last element of the list
-		5. display() --> display the whole List
+	2. addLast(int x) --> Add the x element at the last of the list
+	3. deleteFirst() --> Delete the first element of the list
+	4. deleteLast() --> Delete the last element of the list
+	5. display() --> display the whole List
     Extra Method :-			
-		6. displayRecursive(Node temp) --> display the list reverse from temp to the Head(using recursive)
+	6. displayRecursive(Node temp) --> display the list reverse from temp to the Head(using recursive)
 */
 import java.util.*;
 
@@ -131,7 +131,8 @@ class Main {
                     break;
                 }
                 case 2: {
-                    System.out.println("Enter the element you want to add first");
+        
+			System.out.println("Enter the element you want to add first");
                     int x = sc.nextInt();
                     al.insertLast(x);
                     break;
