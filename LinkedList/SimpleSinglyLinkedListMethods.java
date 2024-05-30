@@ -3,13 +3,13 @@
     Date : 30/05/24
     Aim : Singly Linked List
     Basic Methods :-
-       		1. addFirst(int x) --> Add the x element at first of the list
-		2. addLast(int x) --> Add the x element at the last of the list
-		3. deleteFirst() --> Delete the first element of the list
-		4. deleteLast() --> Delete the last element of the list
-		5. addBefore(int x, int y) --> Add the x element before the y index of the list
-		6. addAfter(int x, int y) --> Add the x element after the y index of the list
-		7. display() --> display the whole List
+       	1. addFirst(int x) --> Add the x element at first of the list
+	2. addLast(int x) --> Add the x element at the last of the list
+	3. deleteFirst() --> Delete the first element of the list
+	4. deleteLast() --> Delete the last element of the list
+	5. addBefore(int x, int y) --> Add the x element before the y index of the list
+	6. addAfter(int x, int y) --> Add the x element after the y index of the list
+	7. display() --> display the whole List
 */
 // import statements
 import java.util.*;
