@@ -1,5 +1,7 @@
 /*
-	DOubly Linked List
+	Name : Patel Dhruv R.
+ 	Date : 05/06/24
+	Doubly Linked List
 	methods :-
 		1. addFirst(int x) --> add the element x at the first of list
 		2. addLast(int x) --> add the element x aat the last of the list
