@@ -1,5 +1,7 @@
 /*
-	Circular Linked List
+	Name : Patel Dhruv R.
+ 	Date : 05/06/24
+	Circular Linked List --> This linked list will behave as a singly linked list but here is only one exaption is that ther is last and first Node are joined.
 	methods :-
 		1. addFirst(int data) --> add data as the first node of the list
 		2. addLast(int data) --> add data as the last node of the list
@@ -12,11 +14,12 @@
 		9. search(int data) --> it will check that data exits or not
 		10. addBetween(int data, int target1, int target2) --> add data between target1 and target2
 		11. addAfter(int data, int target) --> add data after the target
-		12.	addBefore(int data, int target) --> add data before the target
+		12. addBefore(int data, int target) --> add data before the target
 */
 import java.util.*;
 class List
 {
+	// class Node --> for making node
 	static class Node 
 	{
 		int data;
@@ -27,6 +30,7 @@ class List
 			next = null;
 		}
 	}
+	// Head pointor
 	static Node Head = null;
 	public static void main(String args[])
 	{
@@ -34,6 +38,7 @@ class List
 		boolean b = true;
 		while(b)
 		{
+			// calling different methods using while loop and switch case
 			System.out.println("1. add first");
 			System.out.println("2. add last");
 			System.out.println("3. add before");
@@ -56,6 +61,7 @@ class List
 					System.out.println("Enter the element you want to add");
 					int x = sc.nextInt();
 					addFirst(x);
+					System.out.println("Element added successfully");
 					break;
 				}
 				case 2 :
@@ -63,6 +69,7 @@ class List
 					System.out.println("Enter the element you want to add");
 					int x = sc.nextInt();
 					addLast(x);
+					System.out.println("Element added successfully");
 					break;
 				}
 				case 3 :
@@ -72,6 +79,7 @@ class List
 					System.out.println("Enter the target");
 					int y = sc.nextInt();
 					addBefore(x,y);
+					System.out.println("Element added successfully");
 					break;
 				}
 				case 4 :
@@ -81,6 +89,7 @@ class List
 					System.out.println("Enter the target");
 					int y = sc.nextInt();
 					addAfter(x,y);
+					System.out.println("Element added successfully");
 					break;
 				}
 				case 5 :
@@ -90,6 +99,7 @@ class List
 					System.out.println("Enter the index");
 					int y = sc.nextInt();
 					addParticularIndex(x,y);
+					System.out.println("Element added successfully");
 					break;
 				}
 				case 6 :
@@ -101,16 +111,19 @@ class List
 					System.out.println("Enter the target 2");
 					int z = sc.nextInt();
 					addBetween(x,y,z);
+					System.out.println("Element added successfully");
 					break;
 				}
 				case 7 :
 				{
 					deleteFirst();
+					System.out.println("Element removed successfully");
 					break;
 				}
 				case 8 :
 				{
 					deleteLast();
+					System.out.println("Element removed successfully");
 					break;
 				}
 				case 9 :
@@ -118,6 +131,7 @@ class List
 					System.out.println("Enter the element you want to delete");
 					int x = sc.nextInt();
 					deletePerticular(x);
+					System.out.println("Element removed successfully");
 					break;
 				}
 				case 10 :
@@ -145,15 +159,18 @@ class List
 				}
 				default :
 				{
-					System.out.println("THANKS");
+					System.out.println("THANKS for using my program!!");
 					break;
 				}
 			}
 		}
 	}
+	// addFirst(int d) method for add the element d at the head pointor
 	public static void addFirst(int d)
 	{
+		// creating the new node 
 		Node n1 = new Node(d);
+		// if list is empty
 		if(Head == null)
 		{
 			Head = n1;
@@ -162,6 +179,7 @@ class List
 		else
 		{
 			n1.next = Head;
+			// temp pointor for traverse the list and go at the last node 
 			Node temp = Head;
 			while(temp.next != Head)
 			{
@@ -173,7 +191,9 @@ class List
 	}
 	public static void addLast(int d)
 	{
+		// creating the new node 		
 		Node n1 = new Node(d);
+		// if list is empty
 		if(Head == null)
 		{
 			Head = n1;
@@ -209,6 +229,7 @@ class List
 		}
 		else
 		{
+			// creating the new node 
 			Node n = new Node(d);
 			Node t = Head;
 			while(t.next.data != target)
@@ -238,6 +259,7 @@ class List
 		}
 		else
 		{
+			// creating the new node 
 			Node n = new Node(d);
 			Node t = Head;
 			while(t.data != target)
@@ -251,6 +273,7 @@ class List
 	public static void addParticularIndex(int data, int index)
 	{
 		Node temp = Head;
+		// creating the new node 
 		Node n = new Node(data);
 		if(index == 1)
 		{
@@ -274,6 +297,7 @@ class List
 	}
 	public static void addBetween(int d, int a, int b)
 	{
+		// creating the new node 
 		Node n = new Node(d);
 		Node temp = Head;
 		int flag = 0;
